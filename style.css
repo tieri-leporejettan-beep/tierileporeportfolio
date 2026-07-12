@@ -1,0 +1,16 @@
+body {
+  /* Set the white background */
+  background-color: #ffffff;
+
+  /* Create the checkered pattern using gradients */
+  background-image:
+    linear-gradient(45deg, #ff0000 25%, transparent 25%, transparent 75%, #ff0000 75%),
+    linear-gradient(45deg, #ff0000 25%, transparent 25%, transparent 75%, #ff0000 75%);
+
+  /* Size of the checker squares (adjust this to make the checkers larger or smaller) */
+  background-size: 60px 60px;
+
+  /* Offset the second gradient to complete the checkers */
+  background-position: 0 0, 30px 30px;
+}
+testing
