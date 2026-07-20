@@ -1,13 +1,217 @@
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Website</title>
-
-  <!-- Put the link line here inside the head tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tieri Lepore | Portfolio</title>
   <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-  <h1>Hi everyone</h1>
+
+  <!-- Navigation Bar -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <span>⚡</span> Tieri.dev
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <div class="hero-subtitle">Available for Opportunities</div>
+      <h1>Hi, I'm Tieri. <br><span class="gradient-text">Crafting beautiful web experiences.</span></h1>
+      <p class="hero-desc">I am a frontend developer specializing in building modern, responsive, and highly interactive web interfaces. Let's create something extraordinary.</p>
+      <div class="cta-group">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-glowing-blob"></div>
+      <div class="profile-card">
+        <div class="profile-img">👨‍💻</div>
+        <h3>Tieri Lepore</h3>
+        <p style="color: var(--accent-cyan); font-weight: 500; font-size: 0.9rem; margin-bottom: 1rem;">Frontend Developer</p>
+        <p style="color: var(--text-muted); font-size: 0.85rem; line-height: 1.4;">Based in California. Passionate about CSS grid, modern UI aesthetics, and clean layouts.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="section-header">
+      <h2>About Me</h2>
+      <p>Here is a little background on who I am and what I do.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I am a creative developer who loves turning complex problems into elegant, user-friendly digital designs. I focus on writing clean, semantic HTML and modular CSS to build fast-loading websites that look amazing on every device.</p>
+        <p>My goal is to craft interfaces that not only function flawlessly but also deliver a premium visual experience. I am constantly experimenting with animations, grid structures, and interactive details to refine my craft.</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-card">
+          <div class="stat-num">3+</div>
+          <div class="stat-label">Years Learning</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">12+</div>
+          <div class="stat-label">Projects Built</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">100%</div>
+          <div class="stat-label">Handcrafted CSS</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">24/7</div>
+          <div class="stat-label">Creative Passion</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); max-width: 100%;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+      <div class="section-header">
+        <h2>My Skillset</h2>
+        <p>Technologies and tools I work with to bring concepts to life.</p>
+      </div>
+      <div class="skills-container">
+        <div class="skill-badge"><span class="dot"></span> HTML5</div>
+        <div class="skill-badge"><span class="dot"></span> CSS3 / SCSS</div>
+        <div class="skill-badge"><span class="dot"></span> JavaScript (ES6+)</div>
+        <div class="skill-badge"><span class="dot"></span> Git & GitHub</div>
+        <div class="skill-badge"><span class="dot"></span> Responsive Design</div>
+        <div class="skill-badge"><span class="dot"></span> CSS Grid & Flexbox</div>
+        <div class="skill-badge"><span class="dot"></span> Web Animations</div>
+        <div class="skill-badge"><span class="dot"></span> UI/UX Design</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="section-header">
+      <h2>Featured Projects</h2>
+      <p>A selection of projects that showcase my frontend engineering and design capabilities.</p>
+    </div>
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <div class="project-img-placeholder">📊</div>
+        <div class="project-content">
+          <div class="project-tags">
+            <span class="project-tag">HTML5</span>
+            <span class="project-tag">CSS Grid</span>
+            <span class="project-tag">JavaScript</span>
+          </div>
+          <h3 class="project-title">Interactive Dashboard</h3>
+          <p class="project-desc">A premium dark-themed analytics dashboard featuring custom interactive charts, filtering systems, and high performance data updates.</p>
+          <div class="project-links">
+            <a href="#" class="project-link link-primary">Live Demo &rarr;</a>
+            <a href="#" class="project-link link-secondary">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <div class="project-img-placeholder">💬</div>
+        <div class="project-content">
+          <div class="project-tags">
+            <span class="project-tag">CSS Variables</span>
+            <span class="project-tag">DOM Manipulation</span>
+            <span class="project-tag">WebSockets</span>
+          </div>
+          <h3 class="project-title">Sleek AI Chat UI</h3>
+          <p class="project-desc">A dynamic conversational interface featuring micro-animations, theme customization, typing indicators, and markdown formatting support.</p>
+          <div class="project-links">
+            <a href="#" class="project-link link-primary">Live Demo &rarr;</a>
+            <a href="#" class="project-link link-secondary">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <div class="project-img-placeholder">🎨</div>
+        <div class="project-content">
+          <div class="project-tags">
+            <span class="project-tag">Semantic HTML</span>
+            <span class="project-tag">Custom Properties</span>
+            <span class="project-tag">Keyframes</span>
+          </div>
+          <h3 class="project-title">Creative Portfolio</h3>
+          <p class="project-desc">A highly interactive portfolio template with glassmorphism UI elements, glowing buttons, fluid grids, and responsive components.</p>
+          <div class="project-links">
+            <a href="#" class="project-link link-primary">Live Demo &rarr;</a>
+            <a href="#" class="project-link link-secondary">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-color); max-width: 100%;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 2rem 0;" class="contact-container">
+      <div class="contact-info">
+        <h3>Let's Collaborate</h3>
+        <p>Whether you have a question, want to start a project, or just want to connect and talk code, feel free to reach out!</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div>
+              <h4>Email</h4>
+              <p>tieri@lepore.dev</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h4>Location</h4>
+              <p>California, USA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent! (Demo Mode)');">
+        <div class="form-group">
+          <label class="form-label" for="name">Your Name</label>
+          <input class="form-input" type="text" id="name" required placeholder="John Doe">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">Your Email</label>
+          <input class="form-input" type="email" id="email" required placeholder="john@example.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="message">Message</label>
+          <textarea class="form-input" id="message" required placeholder="Write your message here..."></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p class="copyright">&copy; 2026 Tieri Lepore. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com" target="_blank">GitHub</a></li>
+        <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+        <li><a href="#" target="_blank">Twitter</a></li>
+      </ul>
+    </div>
+  </footer>
+
 </body>
 </html>
